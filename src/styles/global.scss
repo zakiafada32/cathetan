@@ -13,7 +13,7 @@ body.light {
   // --primary-color: #381696;
   --primary-color: #02aab0;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #02aab0;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -178,7 +178,6 @@ a {
 .post-thumbnail {
   text-align: center;
   min-height: 380px;
-  //background-image: url('/assets/circles-light.png');
   background-color: var(--featured-bg);
   background-repeat: no-repeat;
   background-size: cover;
