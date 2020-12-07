@@ -49,7 +49,7 @@ module.exports = {
       options: {
         name: `Cathetan | Zaki`,
         short_name: `Cathetan`,
-        start_url: `/`,
+        start_url: `https://cathetan.netlify.app/`,
         background_color: `#fff`,
         theme_color: `#381696`,
         display: `standalone`,
