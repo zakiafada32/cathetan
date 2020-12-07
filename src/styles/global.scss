@@ -15,7 +15,7 @@ body.light {
   --primary-text-color: #fff;
   --featured-bg: #02aab0;
   --featured-text: #fff;
-  --secondary-color: #10072b;
+  --secondary-color: #008f94;
   --background: #fff;
   --site-header: var(--background);
   --card-bg: #fff;
@@ -36,12 +36,12 @@ body.dark {
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
-  --secondary-color: #66578d;
+  --secondary-color: #008f94;
   --background: #0a041a;
-  --text-color: rgba(255, 255, 255, 0.88);
-  --text-secondary-color: rgba(255, 255, 255, 0.66);
+  --text-color: rgba(255, 255, 255, 0.938);
+  --text-secondary-color: rgba(255, 255, 255, 0.877);
   --site-header: var(--background);
-  --card-bg: #181326;
+  --card-bg: #474747;
   --card-bdr: #181326;
   --card-shadow: #020204;
   --btn-bg: var(--background);
@@ -128,9 +128,11 @@ a {
   color: var(--btn-text-color);
   font-size: 16px;
   font-weight: 400;
-  margin: 0 20px 0 0;
+  margin: 0 20px 10px 0;
   transition: background-color 0.3s linear;
   &.-primary {
+    text-align: center;
+    width: 8rem;
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     color: var(--primary-text-color);

@@ -1,6 +1,6 @@
 {
   "name": "cathetan",
-  "description": "A simplified blog for developers and designer. This starter built with Gatsby and Netlify CMS",
+  "description": "A collection of my experiences and the things I've learned.",
   "author": "W3Layouts Team <info@w3layouts.com>",
   "version": "1.6.0",
   "license": "MIT",
@@ -12,7 +12,6 @@
     "gatsby-plugin-dark-mode": "^1.1.1",
     "gatsby-plugin-google-analytics": "^2.1.36",
     "gatsby-plugin-manifest": "^2.4.1",
-    "gatsby-plugin-netlify-cms": "^4.1.38",
     "gatsby-plugin-offline": "^3.2.0",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sass": "^2.1.28",
@@ -22,7 +21,6 @@
     "gatsby-remark-prismjs": "^3.3.31",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-remark": "^2.6.53",
-    "netlify-cms-app": "^2.11.13",
     "node-sass": "^4.13.1",
     "prismjs": "^1.19.0",
     "react": "^16.12.0",
@@ -35,7 +33,7 @@
   "homepage": "https://github.com/zakiafada32/cathetan",
   "keywords": [
     "gatsby",
-    "netlify cms"
+    "zaki afada"
   ],
   "repository": {
     "type": "git",

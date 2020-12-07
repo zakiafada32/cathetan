@@ -27,30 +27,26 @@ const ContactPage = ({ data: { site } }) => {
         <div>
           <form
             className="form-container"
-            action="https://sendmail.w3layouts.com/SubmitContactForm"
+            action="https://mailthis.to/zakiafada32"
             method="post"
           >
             <div>
-              <label htmlFor="w3lName">Name</label>
-              <input type="text" name="w3lName" id="w3lName" />
+              <label htmlFor="Name">Name</label>
+              <input type="text" name="Name" id="Name" />
             </div>
             <div>
-              <label htmlFor="w3lSender">Email</label>
-              <input type="email" name="w3lSender" id="w3lSender" />
+              <label htmlFor="Sender">Email</label>
+              <input type="email" name="Sender" id="Sender" />
             </div>
             <div>
-              <label htmlFor="w3lSubject">Subject</label>
-              <input type="text" name="w3lSubject" id="w3lSubject" />
+              <label htmlFor="Subject">Subject</label>
+              <input type="text" name="Subject" id="Subject" />
             </div>
             <div>
-              <label htmlFor="w3lMessage">Message</label>
-              <textarea name="w3lMessage" id="w3lMessage"></textarea>
+              <label htmlFor="Message">Message</label>
+              <textarea name="Message" id="Message"></textarea>
             </div>
             <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
-              <h4 style={{ marginRight: '1rem' }}>
-                Contact form is not working yet, contact me via email at
-                afadazaki32@gmail.com{' '}
-              </h4>
               <input
                 type="submit"
                 className="button -primary"
