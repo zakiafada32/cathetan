@@ -9,4 +9,4 @@ metaDescription: Meta description for Hello World
 
 # Hello There!
 
-This blog is my digital garden (hopefully :laughing:) - a collection of the things I've learned and created. Enjoy!.
+This blog is my digital garden (hopefully :laughing:) - a collection of my experiences and the things I've learned. Enjoy!

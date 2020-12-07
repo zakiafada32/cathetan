@@ -47,6 +47,10 @@ const ContactPage = ({ data: { site } }) => {
               <textarea name="w3lMessage" id="w3lMessage"></textarea>
             </div>
             <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+              <h4 style={{ marginRight: '1rem' }}>
+                Contact form is not working yet, contact me via email at
+                afadazaki32@gmail.com{' '}
+              </h4>
               <input
                 type="submit"
                 className="button -primary"

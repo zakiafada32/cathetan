@@ -28,9 +28,9 @@ export default ({ children }) => {
         <p>
           &copy; {new Date().getFullYear()} Cathetan &bull; Crafted with{' '}
           <span role="img" aria-label="love">
-            😁
+            ❤️
           </span>{' '}
-          by <a href="https://zaki-afada.netlify.app/">Zaki</a>
+          by <a href="https://w3layouts.com">W3Layouts</a>
         </p>
       </footer>
     </div>
