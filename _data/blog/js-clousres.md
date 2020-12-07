@@ -9,7 +9,7 @@ metaDescription: Meta description for JavaScript Concept - Closure
 
 # JavaSCript Concept : [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
-Closures mengijinkan sebuah fungsi untuk mengakses variabel dari fungsi diatasnya atau disebut _outer function_. Di dalam JavaScript semua fungsi akan dibersihkan oleh _Engine_ ketika fungsi tersebut sudah terhapus dari _call stack_ atau sudah tidak digunakan. Tapi JavaScripts _engine_ akan tetap menyimpan variabel didalam sebuah fungsi jika mempunyai referensi funsi didalamnya. Berikut contoh kodenya.
+Closures mengijinkan sebuah fungsi untuk mengakses variabel dari fungsi diatasnya atau disebut _outer function_. Di dalam JavaScript semua fungsi akan dibersihkan oleh _Engine_ ketika fungsi tersebut sudah terhapus dari _call stack_ atau sudah tidak digunakan. Tapi JavaScripts _engine_ akan tetap menyimpan variabel didalam sebuah fungsi jika mempunyai referensi fungsi didalamnya. Berikut contoh kodenya.
 
 #
 
@@ -37,4 +37,4 @@ console.log(malam());
 
 #
 
-Jadi fungsi anak tetap bisa mengakses variabel kakek dan paman meskipun fungsi tua dan dewasa sudah terhapus oleh _garbage collector_
+Jadi fungsi malam tetap bisa mengakses variabel bubur dan nasiPadang meskipun fungsi pagi dan siang sudah terhapus oleh _garbage collector_
