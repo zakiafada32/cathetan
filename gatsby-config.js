@@ -47,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `Cathetan | Zaki`,
+        short_name: `Cathetan`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
