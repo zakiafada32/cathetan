@@ -1,23 +1,33 @@
-import React from "react"
+import React from 'react';
 import Helmet from 'react-helmet';
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { site, markdownRemark } = data // data.markdownRemark holds your post data
-  const { siteMetadata } = site
-  const { frontmatter, html } = markdownRemark
+  const { site, markdownRemark } = data; // data.markdownRemark holds your post data
+  const { siteMetadata } = site;
+  const { frontmatter, html } = markdownRemark;
   return (
     <Layout>
       <Helmet>
-        <title>{frontmatter.title} | {siteMetadata.title}</title>
+        <title>
+          {frontmatter.title} | {siteMetadata.title}
+        </title>
         <meta name="description" content={frontmatter.metaDescription} />
+        <meta property="og:title" content="Cathetan Personal Blog" />
+        <meta
+          property="og:description"
+          content="Personal blog A collection of my experiences and the things I've learned"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dwonu6xev/image/upload/v1607920901/open-graph/cathetan_open_graph_jlmimt.png"
+        />
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
-          
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
@@ -25,7 +35,10 @@ export default function Template({
             </div>
           )}
           {!!frontmatter.thumbnail && (
-            <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
+            <div
+              className="post-thumbnail"
+              style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
+            >
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta">{frontmatter.date}</div>
             </div>
@@ -37,7 +50,7 @@ export default function Template({
         </article>
       </div>
     </Layout>
-  )
+  );
 }
 
 export const pageQuery = graphql`
@@ -58,4 +71,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
