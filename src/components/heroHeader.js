@@ -28,7 +28,7 @@ export default () => (
           <span> &rarr;</span>
         </Link>
         <a
-          href="https://zaki-afada.netlify.app/"
+          href="http://zakiafada.me/"
           rel="noopener noreferrer"
           target="_blank"
           className="button -primary"

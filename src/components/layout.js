@@ -31,7 +31,7 @@ export default ({ children }) => {
             ❤️
           </span>{' '}
           by <a href="https://w3layouts.com">W3Layouts</a> &bull; Visit my
-          portfolio <a href="https://zaki-afada.netlify.app/">Zaki Afada</a>
+          portfolio <a href="http://zakiafada.me/">Zaki Afada</a>
         </p>
       </footer>
     </div>

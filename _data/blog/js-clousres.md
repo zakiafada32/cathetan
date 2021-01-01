@@ -3,7 +3,7 @@ template: BlogPost
 path: /js-closures
 date: 2020-12-8T20:07:53.137Z
 title: JavaScript - Closures
-thumbnail: '/assets/js-closures.jpg'
+thumbnail: '/assets/js-cup.jpg'
 metaDescription: Meta description for JavaScript - Closure
 ---
 
