@@ -2,12 +2,18 @@
 template: BlogPost
 path: /redux-principle
 date: 2021-01-1T20:14:12.137Z
-title: Redux - Principle
-thumbnail: '/assets/redux.png'
-metaDescription: Meta description for Redux - Principle
+title: Redux - Getting Started
+thumbnail: '/assets/redux.jpg'
+metaDescription: Meta description for Redux - Getting Started
 ---
 
-# Principle of Redux
+January 01, 2021
+
+# Getting Started With Redux - Summary of egghead.io course
+
+---
+
+### Principle of Redux
 
 1. **Everything that changes in your application**, including the data and the UI state, **is contained in a single object**, we call the state or the state tree.
 2. **That the state tree is read only**. You cannot modify or write to it. Instead, anytime you want to change the state, you need to dispatch an action. An action is plan JS object describing the change. Just like the state is the minimal representation of the data in your app, the action is the minimal representation of the change to that data.
