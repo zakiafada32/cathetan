@@ -12,9 +12,6 @@ export default function Template({
   return (
     <Layout>
       <Helmet>
-        <title>
-          {frontmatter.title} | {siteMetadata.title}
-        </title>
         <meta name="description" content={frontmatter.metaDescription} />
         <meta property="og:title" content="Cathetan Personal Blog" />
         <meta
@@ -25,6 +22,15 @@ export default function Template({
           property="og:image"
           content="https://res.cloudinary.com/dwonu6xev/image/upload/v1607920901/open-graph/cathetan_open_graph_jlmimt.png"
         />
+        <meta
+          property="og:image"
+          content="https://blog.zakiafada.me/assets/open-graph.png"
+        />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="50" />
+        <title>
+          {frontmatter.title} | {siteMetadata.title}
+        </title>
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
